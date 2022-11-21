@@ -6,6 +6,16 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   const [name, setName] = useState("Cruz");
 
+  const ReqApi = async () => {
+    const res = await fetch("/api/hello");
+    const data = await res.json();
+    setName(data.name);
+  };
+
+  useEffect(() => {
+    ReqApi();
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +25,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Cruz</h1>
+        <h1>{name}</h1>
       </main>
 
       <footer className={styles.footer}></footer>
