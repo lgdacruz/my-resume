@@ -1,9 +1,15 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
 html,
 body {
-  padding: 0;
+  padding: 0 5rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    @media (max-width: 750px) {
+      padding: 0 ;
+    }
 }
 
 a {
@@ -21,6 +27,8 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #001500;
   }
 }
+
+`;
