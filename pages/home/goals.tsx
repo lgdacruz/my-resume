@@ -1,4 +1,4 @@
-import { GenericContainer, Section, Text } from "./style";
+import { GenericContainer, Section, Text } from "../../styles/style";
 
 export default function Goals() {
   return (

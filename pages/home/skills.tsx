@@ -1,4 +1,4 @@
-import { Section } from "./style";
+import { Section } from "../../styles/style";
 
 export default function Skills() {
   return (

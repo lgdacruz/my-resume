@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GenericContainer, Section, TheLink } from "./style";
+import { GenericContainer, Section, TheLink } from "../../styles/style";
 import {
   AiFillYoutube,
   AiFillInstagram,

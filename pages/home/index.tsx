@@ -8,7 +8,7 @@ import Personal from "./personal";
 import Skills from "./skills";
 import Social from "./social";
 
-import { Container, Main } from "./style";
+import { Container, Main } from "../../styles/style";
 
 export default function Home() {
   return (

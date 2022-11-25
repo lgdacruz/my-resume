@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Button, Foot, Form } from "./style";
-import { Puff } from "react-loader-spinner";
+import { Button, Foot, Form } from "../../styles/style";
 
 export default function Footer() {
   const [show, setshow] = useState(false);

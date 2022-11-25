@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styled, { keyframes } from "styled-components";
-import { StyleTypes } from "../../types";
+import { StyleTypes } from "../types";
 
 const theme = {
   light: "#3A7C2D",
@@ -12,12 +12,6 @@ const linkAnimation = keyframes`
 to{
   box-shadow: 5px 0 50px ${theme.light};
   transform: scale(1.1);
-}
-`;
-
-const sectionAnim = keyframes`
-to{
-  box-shadow: 5px 5px 10px black;
 }
 `;
 
